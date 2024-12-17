@@ -9,6 +9,7 @@ package com.laziz.assessment_test.question10;
  * - line 3 uses a different return type for the method, but since it is private in the interface,
  *      it is not considered as override.
  */
+
 interface HasTail {
     private int getTailLength(); // line 1
 }
