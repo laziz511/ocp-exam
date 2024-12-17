@@ -1,4 +1,4 @@
-package com.laziz.assessment_test;
+package com.laziz.assessment_test.question2;
 
 /**
  * Question: What is the output of the following code snippet?

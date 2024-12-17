@@ -1,4 +1,4 @@
-package com.laziz.assessment_test;
+package com.laziz.assessment_test.question4;
 
 import java.util.Map;
 import java.util.function.Predicate;

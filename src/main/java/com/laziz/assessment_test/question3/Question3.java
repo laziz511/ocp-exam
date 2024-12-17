@@ -1,4 +1,4 @@
-package com.laziz.assessment_test;
+package com.laziz.assessment_test.question3;
 
 import java.util.ArrayList;
 import java.util.List;
