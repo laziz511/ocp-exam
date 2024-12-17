@@ -9,24 +9,25 @@ package com.laziz.assessment_test.question10;
  * - line 3 uses a different return type for the method, but since it is private in the interface,
  *      it is not considered as override.
  */
-interface HasTail {
-    private int getTailLength(); // line 1
-}
 
-abstract class Puma implements HasTail {
-    String getTailLength() { // line 3
-        return "4";
-    }
-}
-
-public class Cougar implements HasTail {
-    public static void main(String[] args) {
-        var puma = new Puma() {
-        }; // defines an anonymous class using the abstract Puma parent class
-        System.out.println(puma.getTailLength());
-    }
-
-    public int getTailLength(int length) {
-        return 2;
-    }
-}
+//interface HasTail {
+//    private int getTailLength(); // line 1
+//}
+//
+//abstract class Puma implements HasTail {
+//    String getTailLength() { // line 3
+//        return "4";
+//    }
+//}
+//
+//public class Cougar implements HasTail {
+//    public static void main(String[] args) {
+//        var puma = new Puma() {
+//        }; // defines an anonymous class using the abstract Puma parent class
+//        System.out.println(puma.getTailLength());
+//    }
+//
+//    public int getTailLength(int length) {
+//        return 2;
+//    }
+//}
