@@ -1,0 +1,10 @@
+Question: Suppose you have a module named com.vet.
+Where could you place the following module-info.java file to create a valid module?
+
+public module com.vet {
+    exports com.vet;
+}
+
+Answer:  Option D. If this were a valid module-info.java file, it would need to be placed at the root directory
+of the module. However, a module is not allowed to use the public access modifier. The provided file does not compile
+regardless of the placement in the project.
