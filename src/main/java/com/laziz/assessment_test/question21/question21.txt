@@ -1,0 +1,12 @@
+
+Question:
+A(n) ______ module always contains a module-info.java file,
+while a(n) __________ module always exports all its packages to other modules.
+
+
+Answer: C. named, automatic
+
+Only named modules are required to have a module-info.java file, ruling out options
+A, B, E, and F. Unnamed modules are not readable by any other types of modules, ruling
+out option D. Automatic modules always export all packages to other modules, making the
+answer option C.
