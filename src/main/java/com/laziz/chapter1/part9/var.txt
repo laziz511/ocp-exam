@@ -1,0 +1,4 @@
+
+Inferring the Type with var:
+- type inference, which is using var instead of variable type, is only allowed for local variables
+
