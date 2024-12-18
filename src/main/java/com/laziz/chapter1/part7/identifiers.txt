@@ -1,0 +1,22 @@
+
+Identifying Identifiers
+
+- identifiers must begin with a letter, a currency symbol, or a _ symbol.
+        Currency symbols include dollar ($), yuan (¥), euro (€), and so on.
+
+- identifiers can include numbers but not start with them
+
+- a single underscore _ is not allowed as an identifier
+
+- the same name as the Java reserved words cannot be used as identifiers
+
+
+if the number was allowed to be used as identifier, how the program should decide which value to use in the following:
+
+int 5 = 5555;
+int myValue = 5;
+
+here, in this case, should the program set 5 to a variable myValue, or should it take 5555 from variable 5 and set it.
+
+similar problem, why multiple inheritance is not allowed in Java
+
