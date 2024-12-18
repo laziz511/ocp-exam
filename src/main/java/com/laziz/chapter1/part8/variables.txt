@@ -1,0 +1,9 @@
+
+Instance and class variables do not require you to initialize them.
+As soon as you declare these variables, they are given a default value.
+
+The compiler does not know what value to use and so wants the simplest value it can give the type:
+    - null for an object,
+    - zero for the numeric types,
+    - false for a boolean,
+    - '\u0000' (NUL) for a char.

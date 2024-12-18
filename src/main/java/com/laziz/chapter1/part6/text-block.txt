@@ -1,0 +1,14 @@
+
+1. text blocks require a line break after the opening """. So, the following code is not valid
+
+String block = """doe"""; // DOES NOT COMPILE
+
+
+2. in the following example, only one line is printed:
+
+String block = """
+    doe \
+    deer""";
+
+- since the \ tells java not to add a new line
+

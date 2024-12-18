@@ -1,0 +1,36 @@
+Imports
+
+The import statement doesn't bring in child packages, fields, or methods; it imports only classes
+    directly under the package.
+
+Imagine, you want to use AtomicInteger class from the package java.util.concurrent.atomic
+
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.concurrent.atomic.*;
+
+
+only the last import statement works successfully, because child packages are not included with the first two examples.
+
+There's one special package in the Java world called java.lang => This package is special in that it is
+    automatically imported.
+
+
+import java.util.Date;
+import java.sql.*;
+
+java.sql package also contains Date class, but in this example, it doesn't give conflict as:
+    - we explicitly import a class name, it takes precedence over any wildcards present.
+
+
+but, if the import is as follows:
+
+import java.util.Date;
+import java.sql.Date;
+
+- the compiler tells you that the imports are ambiguous, as there are two the same default classes imported
+
+
+- when we need to use both Date classes in our one file, we need to use fully qualifier for one of them,
+    or for both of them
+
