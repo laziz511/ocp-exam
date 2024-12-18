@@ -1,4 +1,27 @@
 
-Inferring the Type with var:
+1. Inferring the Type with var:
 - type inference, which is using var instead of variable type, is only allowed for local variables
+
+2. Be on the lookout for var used with constructors,
+    method parameters, or instance variables.
+Using var in one of these places is a good exam trick to see if you are paying attention.
+Remember that var is only used for local variable type inference!
+
+3. There’s one last rule you should be aware of:
+    - var is not a reserved word and allowed to be used as an identifier. It is considered a reserved type name.
+      A reserved type name means it cannot be used to define a type, such as a class, interface, or enum.
+
+4. Out of the blue, this code does compile:
+
+public class Var {
+    public void var() {
+        var var = "var";
+    }
+    public void Var() {
+        Var var = new Var();
+    }
+}
+
+- Java is case sensitive, so Var does not introduce any conflicts as a class name.
+- Naming a local variable var is legal
 
