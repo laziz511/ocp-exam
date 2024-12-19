@@ -1,4 +1,4 @@
-package com.laziz.chapter1.part5;
+package com.laziz.chapter1.theory.part5;
 
 /**
  * underscore cannot be added at the beginning of a literal, the end of a literal, right before a decimal point,

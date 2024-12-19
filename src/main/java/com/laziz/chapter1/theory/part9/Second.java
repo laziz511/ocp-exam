@@ -1,4 +1,4 @@
-package com.laziz.chapter1.part9;
+package com.laziz.chapter1.theory.part9;
 
 /**
  * - first line does not compile because all types declared on a single line must be the same type

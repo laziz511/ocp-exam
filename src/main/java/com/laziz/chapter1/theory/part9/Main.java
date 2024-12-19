@@ -1,4 +1,4 @@
-package com.laziz.chapter1.part9;
+package com.laziz.chapter1.theory.part9;
 
 /**
  * This code does not compile. For local variable type inference, the compiler looks only at the line with declaration
