@@ -1,4 +1,4 @@
-package com.laziz.chapter1.part2;
+package com.laziz.chapter1.theory.part2;
 
 /**
  * lines 2 and 3 both write to fields. Line 4 both reads and writes data.

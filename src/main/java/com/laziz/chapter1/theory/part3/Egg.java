@@ -1,4 +1,4 @@
-package com.laziz.chapter1.part3;
+package com.laziz.chapter1.theory.part3;
 
 /**
  * This block of code print 5. First it sets number to 3 in field declaration, and then set number to 4 in instance

@@ -1,4 +1,4 @@
-package com.laziz.chapter1.part4;
+package com.laziz.chapter1.theory.part4;
 
 public class Main {
     public static void main(String[] args) {
