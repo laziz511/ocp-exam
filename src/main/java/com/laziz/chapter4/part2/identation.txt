@@ -1,0 +1,18 @@
+
+
+Working with Indentation:
+
+- public String indent(int numberSpaces)
+- public String stripIndent()
+
+The indent() method adds the same number of blank spaces to the beginning of each line if you pass a positive number.
+If you pass a negative number, it tries to remove that number of whitespace characters from the beginning of the line.
+If you pass zero, the indentation will not change.
+
+NOTE: If you call indent() with a negative number and try to remove more whitespace characters than are present
+at the beginning of the line, Java will remove all that it can find.
+
+
+The stripIndent() method gets rid of all incidental whitespace. This means that all non-blank lines are shifted left
+so the same number of whitespace characters are removed from each line and the first character that remains is not blank.
+
