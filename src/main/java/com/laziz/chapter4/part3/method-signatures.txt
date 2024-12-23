@@ -1,0 +1,17 @@
+
+- public StringBuilder append(String str)
+
+- public StringBuilder insert(int offset, String str)
+
+- public StringBuilder delete(int startIndex, int endIndex)
+- public StringBuilder deleteCharAt(int index)
+
+- public StringBuilder replace(int startIndex, int endIndex, String newString)
+
+- public StringBuilder reverse()
+
+
+- The authors of StringBuilder did not implement equals().
+    If you call equals() on two StringBuilder instances, it will check reference equality.
+    You can call toString() on StringBuilder to get a String to check for equality instead.
+
