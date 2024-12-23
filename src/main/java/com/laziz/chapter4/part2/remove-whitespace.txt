@@ -1,0 +1,18 @@
+
+- The strip() method does everything that trim() does, but it supports Unicode.
+
+- The stripLeading() method removes whitespace from the beginning of the String and leaves it at the end
+
+- The stripTrailing() method does the opposite.
+
+
+The method signatures are as follows:
+
+public String strip()
+public String stripLeading()
+public String stripTrailing()
+public String trim()
+
+
+System.out.println("\t a b c\n".strip()); // a b c
+
