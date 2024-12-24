@@ -1,0 +1,41 @@
+
+
+Overloaded method for finding min value of two:
+
+- public static double min(double a, double b)
+- public static float min(float a, float b)
+- public static int min(int a, int b)
+- public static long min(long a, long b)
+
+
+Rounding Numbers:
+
+- public static long round(double num)
+- public static int round(float num)
+
+pay attention to the input types, and return types.
+
+
+Determining the Ceiling and Floor
+
+- public static double ceil(double num)
+- public static double floor(double num)
+
+both methods take and return double type
+
+
+
+Calculating Exponents:
+
+- public static double pow(double number, double exponent)
+
+the return value is in double type
+
+
+Generating Random Numbers:
+
+- public static double random()
+
+The random() method returns a value greater than or equal to 0 and less than 1 - in the range 0-1
+
+
