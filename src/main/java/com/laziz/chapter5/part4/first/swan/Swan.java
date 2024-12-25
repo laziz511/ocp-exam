@@ -1,6 +1,6 @@
-package com.laziz.chapter5.part4.swan; // Different package than Bird
+package com.laziz.chapter5.part4.first.swan; // Different package than Bird
 
-import com.laziz.chapter5.part4.bird.Bird; // need to have import statement
+import com.laziz.chapter5.part4.first.bird.Bird; // need to have import statement
 
 public class Swan extends Bird {        // Swan is a subclass of Bird
 
@@ -19,6 +19,8 @@ public class Swan extends Bird {        // Swan is a subclass of Bird
         Bird other = new Bird();
         other.floatInWater();               // DOES NOT COMPILE
         System.out.print(other.text);       // DOES NOT COMPILE
+        // the variable reference isn’t a Swan. The code just happens to be in the Swan class.
+        // This is arguably one of the most confusing points on the exam.
     }
 
     private void helpOtherBirdSwim2() {

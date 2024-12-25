@@ -1,4 +1,4 @@
-package com.laziz.chapter5.part4.bird;
+package com.laziz.chapter5.part4.first.bird;
 
 public class Bird {
 
