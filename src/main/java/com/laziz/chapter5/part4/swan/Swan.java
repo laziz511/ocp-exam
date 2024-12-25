@@ -15,11 +15,15 @@ public class Swan extends Bird {        // Swan is a subclass of Bird
         System.out.print(other.text);       // subclass access to superclass
     }
 
-    private helpOtherBirdSwim() {
+    private void helpOtherBirdSwim() {
         Bird other = new Bird();
         other.floatInWater();               // DOES NOT COMPILE
         System.out.print(other.text);       // DOES NOT COMPILE
-        final Double a = 2;
+    }
 
+    private void helpOtherBirdSwim2() {
+        Bird other = new Swan();
+        other.floatInWater();               // DOES NOT COMPILE
+        System.out.print(other.text);       // DOES NOT COMPILE
     }
 }
