@@ -1,0 +1,11 @@
+
+Creating Methods with Varargs:
+
+- A method can have at most one varargs parameter.
+- If a method contains a varargs parameter, it must be the last parameter in the list.
+
+
+Calling Methods with Varargs:
+- When calling a method with a varargs parameter, you have a choice. You can pass in an array,
+    or you can list the elements of the array and let Java create it for you.
+
